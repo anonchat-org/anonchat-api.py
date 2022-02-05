@@ -75,7 +75,7 @@ class RequestV1Message:
         return self.contents.encode() # encode contents of message and return this
 
 class AnonClient:
-    _VERSION = "0.0.1" # The version of client
+    _VERSION = "0.0.3" # The version of client
     
     def __init__(self, ip, port, name): # So, ip of server, port and bot name
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Create socket object
